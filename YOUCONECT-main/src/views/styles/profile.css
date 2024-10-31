@@ -1,0 +1,85 @@
+.profile-container {
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+   
+  }
+  
+  h2 {
+    color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture img {
+    border: 1px solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .profile-options button {
+    display: block;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #002d72;
+    cursor: pointer;
+  }
+  
+  .profile-options button:hover {
+    text-decoration: underline;
+  }
+  
+  .interests-section h3 {
+    color: #002d72;
+    margin-bottom: 10px;
+  }
+  
+  .interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .interests-grid button {
+    background-color: #dcdcdc;
+    border: 1px solid #888;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .interests-grid button.selected {
+    background-color: #6a5acd;
+    color: white;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    background-color: #002d72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #00509d;
+  }
